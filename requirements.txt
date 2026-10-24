@@ -1,0 +1,14 @@
+# Core
+torch>=2.7          # RTX 50-series (Blackwell) GPUs need a CUDA 12.8+ build; see https://pytorch.org/get-started/locally/
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+tiktoken>=0.7
+tqdm>=4.66
+
+# Notebooks
+jupyterlab>=4.0
+ipykernel>=6.29
+
+# Optional: only for the Gradio demo at the end of notebooks/p_2_analysis.ipynb
+gradio>=4.0

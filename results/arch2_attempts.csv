@@ -1,0 +1,7 @@
+attempt,size,final_val,ppl,diverged,diverged_at_update,micro_batch,grad_accum,fused_adamw
+1,5M,6.227,506.3,False,,8,2,False
+1,25M,9.617,15013.3,True,1800,8,2,False
+1,100M,5.938,379.1,False,,8,2,False
+2,5M,9.503,13400.7,True,1800,4,4,True
+2,25M,6.048,423.1,False,,4,4,True
+2,100M,7.236,1388.7,True,1800,4,4,True
